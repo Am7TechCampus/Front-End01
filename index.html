@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Front-End 01</title>
+    
+    <style>
+        th, td, tr{
+       border: 1px solid black;
+            border-radius: 15px;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <h1>Welcome to Front-End 01 Class</h1>
+    <img src="imgs/python.png"  height="240px "alt="Python BootCamp">
+    <h3>We'll learn more exciting Tags Such as  Tex, form, image, link, video, audio & Map</h3>
+    <table colspan="2" style="text-align: center;border:2px solid black;border-radius: 15px;">
+        <tr>
+        <th>Tag Name</th>
+        <th>Usage</th>
+        </tr>
+        
+        <tr>
+            <td>h1</td>
+            <td>used for heading Texts such as (Titles)</td>
+        </tr>
+        <tr>
+            <td>p</td>
+            <td>used for paragraphs</td>
+        </tr>
+        <tr>
+            <td>audio</td>
+            <td>used for audio files</td>
+        </tr>
+        <tr>
+        <td>video</td>
+        <td>used for video files</td>
+        </tr>
+        
+        
+    </table>
+    <br>
+    <h4>Our studtent will learn the follwing:</h4>
+    <ul>
+        <li>DevOps</li>
+        <li>UI/UX</li>
+        <li>Fron-End</li>
+        
+    </ul>
+    <br>
+    <h4>The Next Session will learn the following:</h4>
+    <ol>
+        <li>Fundamentals of programming & logic</li>
+        <li>Introduction to Python</li>
+        <li>System Initialization</li>
+    </ol>
+    <br>
+    <spane>you'r all welcome to join us at our center</spane><br>
+     <!-- Google map Fetched From - EmbedGoogleMap - -->
+<iframe width="400" height="250" id="gmap_canvas" src="https://maps.google.com/maps?q=Jeddah%2C&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+    <br>
+    <br>
+    <spane>you can check out our trailer Video to get excited & decide to join us :)</spane><br>
+     <video width="320" height="250" controls>
+         
+         <source src="video/video01.mp4" type="video/mp4">
+         
+         Your Browser Doesn't Support Video Tag!
+     </video>
+     <br>
+    <br>
+    <audio width="320" height="60" controls autotart="1">
+        
+        <source src="audio/audio01.mp3" type="audio/mp3">
+        
+        Your Browser Doesn't Support Audio Tag!
+        
+    </audio>
+    <br>
+    <br>
+   
+    <h4>Don't forget to check out the latest TechCampus Course: <em style="color:darkred;">AI Course</em></h4>
+    <a href="https://techcampus.com/" target="_blank" title="Click Here to see the course details."><img src="imgs/Tech.gif" alt="TechCampus"></a>
+    <br>
+    <br>
+    <p>please fill up the below form in order to get registered.</p>
+    <form>
+        <label>First Name:</label><br>
+        <input type="text" name="First Name" placeholder="Type your First Name"><br>
+        
+        <label>Last Name:</label><br>
+        <input type="text" name="Last Name" placeholder="Type your Last Name"><br>
+        
+        <label>E-Mail:</label><br>
+        <input type="email" name="email" placeholder="Type your E-Mail"><br>
+        
+        <label>Phone Number:</label><br>
+        <input type="number" name="phone number" placeholder="enter your Phone Number"><br>
+        
+        <label>City:</label><br>
+        <select>
+           
+            <option>select your city</option>
+            <option value="Jeddah">Jeddah</option>
+            <option value="Makkah">Makkah</option>
+            <option value="Madna">Madina</option>
+            <option value="other">Other</option>
+            
+        </select>
+        
+        <br>
+        
+        
+        <label>Gender:</label><br>
+        <input type="radio" name="gender" value="Male">Male
+       
+        <br>
+        <input type="radio" name="gender" value="Female">Female 
+        
+        <br>
+        <Label>Preferred Time & Date:</Label><br>
+        <input type="time" name="time">
+        <input type="date" value="date">
+        <br>
+        <label>Your Message:</label><br>
+        <textarea name="message" rows="8" cols="50"></textarea>    
+        
+        <br>
+        
+        <input type="submit" value="Send">
+        
+        
+    </form>
+  
+    
+</body>
+</html>
