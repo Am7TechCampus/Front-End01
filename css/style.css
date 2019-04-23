@@ -1,11 +1,14 @@
+ @import url('https://fonts.googleapis.com/css?family=Raleway');
 body{
     
     background-color:#81E3A4;
+    
 }
 
 th, td, tr{
        border: 1px solid black;
-            border-radius: 15px;
+        border-radius: 15px;
+        font-family:'Raleway', sans-serif;
 }
 
 table{
@@ -14,4 +17,8 @@ table{
 
 .AICourse{
     color:darkred;
+}
+h1, h3, h4, p, li, a, em, spane, label, button, placeholder {
+    
+    font-family:'Raleway', sans-serif;
 }
