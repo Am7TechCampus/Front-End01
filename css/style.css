@@ -1,16 +1,71 @@
  @import url('https://fonts.googleapis.com/css?family=Raleway');
+
+/* Text Seclection BG Color  */
+  ::-moz-selection { background: #e74c3c; }
+    ::selection { background: #e74c3c; }
 body{
     
     background-color:#81E3A4;
+    font-family:'Raleway', sans-serif;
+}
+header{
+    background-color:#3d3d3d;
+    width: 100%;
+    height:120px;
+}
+nav{
+    margin:14px 16px;
+}
+nav a{
+    color:#fff;
+    float: left;
+    display:block;
+   
+    text-decoration: none;
+    padding:14px 16px;
     
 }
-
-th, td, tr{
-       border: 1px solid black;
-        border-radius: 15px;
-        font-family:'Raleway', sans-serif;
+nav a:hover{
+    background-color:#262626;
+    color:#81E3A4;
+    border-radius: 25px;
+    
 }
-
+nav li{
+    
+    list-style: none;
+}
+.STitle{
+    color:#fff;
+    text-align: center;
+    padding:14px 16px;
+    
+    
+}
+.CourseLogo{
+    
+    position: absolute;
+    top:5%;
+    left:80%;
+    padding:14px 16px;
+    width:80px;
+    height:88px;
+    border-radius: 15px;
+    background: #81E3A4;
+    border-top:1px solid #59b77b; 
+}
+th{
+    background:#3d3d3d;
+    color:#fff;
+}
+th, td, tr{
+    border: 1px solid black;
+    border-radius: 15px;
+    font-family:'Raleway', sans-serif;
+}
+tr:hover{
+    background-color:#ccc;
+}
 table{
     text-align: center;
 }
@@ -18,7 +73,16 @@ table{
 .AICourse{
     color:darkred;
 }
-h1, h3, h4, p, li, a, em, spane, label, button, placeholder {
-    
+h1, h3, h4, p, li, a, em, spane, label, button, placeholder, input, select, textarea {
+  
     font-family:'Raleway', sans-serif;
+}
+input{
+    height:20px;
+    border-radius: 15px;
+    border:none;
+    
+}
+img{
+    max-width: 100%;
 }
