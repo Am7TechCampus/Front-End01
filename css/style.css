@@ -1,0 +1,17 @@
+body{
+    
+    background-color:#81E3A4;
+}
+
+th, td, tr{
+       border: 1px solid black;
+            border-radius: 15px;
+}
+
+table{
+    text-align: center;
+}
+
+.AICourse{
+    color:darkred;
+}
